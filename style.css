@@ -64,6 +64,20 @@ a {
 
 /* Media Queries */
 
+/* screen */
+@media screen and (max-width: 1024px) {
+    .logoContainer {
+        margin-left: 5%;
+    }
+    .infoContainer {
+        margin-left: 5%;
+    }
+    .siteContainer{
+        bottom: 50.3%;
+        right: 27%;
+    }
+}
+
 
 /* Tablets */
 @media screen and (max-width: 780px) {
