@@ -1,0 +1,132 @@
+body {
+    background-color: #F9F9F9;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+.mainContainer {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.logoContainer {
+    display: inline-flex;
+    margin-left: 25.4%;
+    height: 57px;
+}
+.logo {
+    width: 47px;
+    height: 47px;
+    padding-right: 15px;
+}
+#atelier {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.photoContainer {
+    display: flex;
+    justify-content: center;
+    width: 910;
+}
+.plan{
+    width: 901px;
+    height: 703px;
+    box-shadow: 6px 5px 13px	#B0B0B0;
+    filter: opacity(0.9);
+}
+.siteContainer {
+    position: absolute;
+    bottom: 42.3%;
+    right: 37%;
+    color: white;
+    padding: 0;
+}
+#siteText {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    padding: 0;
+}
+.fab {
+    font-size: 25px;
+}
+.infoContainer{
+    display: inline-flex;
+    margin-left: 25.4%;
+}
+p {
+    padding-right: 86px;
+    margin-top: 6px;
+}
+
+a {
+    color:#EF0A0A;
+    text-decoration: none;
+}
+
+/* Media Queries */
+
+
+/* Tablets */
+@media screen and (max-width: 780px) {
+    .mainContainer {
+        width: 90%;
+    }
+    .logoContainer {
+        margin-left: 18%;
+    }
+    .photoContainer {
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+        width: 80%
+    }
+    .plan {
+        width: 80%;
+        height: auto;
+    }
+    .infoContainer {
+        margin-left: 18%;
+        display: block;
+        text-align: left;
+    }
+    .siteContainer {
+        bottom: 40%;
+        right: 12.8%;
+        font-size: 3vw;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    .logoContainer {
+        display: flex;
+        justify-content: left;
+        margin-left: 9%;
+    }
+    .photoContainer {
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    .plan {
+        width: 90%;
+        height: auto;
+    }
+    .infoContainer {
+        margin-left: 9%;
+        display: block;
+        text-align: left;
+        font-size: 2vw;
+    }
+    .siteContainer {
+        bottom: 52%;
+        right: 1.8%;
+    }
+    .siteText {
+        font-size: 3vw;
+    }
+
+}
+
+
