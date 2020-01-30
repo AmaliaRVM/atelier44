@@ -40,6 +40,17 @@ body {
     width: 768px;
     height: 600px;
 }
+.underConstruction {
+    position: absolute;
+    bottom: 36%;
+    right: 23%;
+    color: white;
+    padding: 0;
+}
+#constructionText{
+    font-size: 22px;
+    margin-bottom: 0;
+}
 
 /* Info Style */
 .infoContainer {
@@ -52,11 +63,13 @@ body {
 p {
     margin-top: 0;
 }
-
 a {
     color:#EF0A0A;
     text-decoration: none;
 } 
+.fab {
+    font-size: 19px;
+}
 
 /* Media queries */
 
