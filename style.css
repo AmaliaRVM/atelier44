@@ -102,7 +102,7 @@ a {
         height: auto;
     }
     .infoContainer{
-        padding-top: 7px;
+        padding-top: 8px;
     }
     .mail-phone{
         display: block;
@@ -126,6 +126,9 @@ a {
 @media screen and (max-width: 450px) {
     #content {
         grid-template-rows: 100px 300px 200px;
+    }
+    .infoContainer{
+        padding-top: 9px;
     }
     .imageContainer{
         height: 300px;
@@ -153,10 +156,10 @@ a {
         font-size: 13px;
     }
     #saint-gilles{
-        padding-top: 5px;
+        padding-top: 2px;
     }
     #phone{
-        padding-top: 5px;
+        padding-top: 2px;
     }
 }
 
