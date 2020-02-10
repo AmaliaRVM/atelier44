@@ -164,9 +164,9 @@ a {
 }
 
 /* Smaller */
-@media screen and (max-width: 380px){
+@media screen and (max-width: 375px){
     #street{
-        letter-spacing: 1px;
+        letter-spacing: .9px;
     }
 }
 
