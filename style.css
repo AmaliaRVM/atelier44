@@ -174,4 +174,9 @@ a {
         letter-spacing: 0.8px;
     }
 }
+@media screen and (max-width: 360px){
+    #street{
+        letter-spacing: 0.6px;
+    }
+}
 
