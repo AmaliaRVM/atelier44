@@ -94,6 +94,17 @@ a {
 /* Media queries */
 
 /* Tablets */
+@media screen and (max-width: 950px) {
+        p{
+            padding-right: 0;
+            padding-top: 6px;
+            font-size: 13px
+        }
+        a{
+            padding-top: 6px;
+        }
+    
+    }
 @media screen and (max-width: 780px) {
     .image{
         width: 100%;
