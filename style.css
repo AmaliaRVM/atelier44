@@ -166,7 +166,12 @@ a {
 /* Smaller */
 @media screen and (max-width: 375px){
     #street{
-        letter-spacing: .9px;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 369px){
+    #street{
+        letter-spacing: 0.8px;
     }
 }
 
