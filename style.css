@@ -41,38 +41,19 @@ body {
     height: 780px;
     object-fit: cover;
 }
-/* Under construction text */
-/* .underConstruction {
-    position: absolute;
-    bottom: 31%;
-    right: 21%;
-    color: white;
-    padding: 0;
-}
-#constructionText{
-    font-size: 22px;
-    padding-right: 0;
-    margin-bottom: 0;
-} */
 
 /* Works Text style */
 .works{
     position: absolute;
     bottom: 25%;
     right: 20%;
-    color: white;
     padding: 0;
-    /* position: absolute;
-    bottom: 27%;
-    left:  7%;
-    color: white;
-    padding: 0; */
 }
 #worksText{
     font-size: 18px;
+    color: white;
 
 }
-
 /* Info Style */
 .infoContainer {
     grid-column: 2;
@@ -101,11 +82,12 @@ a {
     color:#EF0A0A;
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; 
 } 
 .fab {
     font-size: 19px;
 }
+
 /* Under construction Page */
 #underpage{
     background-color: #F9F9F9;
@@ -113,30 +95,28 @@ a {
     font-size: 34px;
 }
 .construction{
-    width: 50vw;
-    padding-left: 25%;
-    padding-top: 15%;
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: 200px 200px;
+    max-width: 50vw;
     margin: 0 auto;
-    display: flex;
+    text-align: center;
+    margin-top: 15%;    
 }
 #underText{
-    padding-left: 40px;
-    padding-top: 1%;
-    padding-right: 0;
-}
-#under{
-    color:#F9F9F9;
-    text-decoration: none;
+    grid-row: 1;
 }
 .goback{
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
+    grid-column: 1;
+    grid-row: 2;
 }
 #back{
     font-size: 15px;
+    color: #e11414;
 }
-.circle {
+/* .circle {
+    grid-column: 1;
+    grid-row: 2;
     background-color: red;
     margin: autos;
     width: 50px;
@@ -145,15 +125,15 @@ a {
     -webkit-animation-name: circle;
     -webkit-animation-duration: 5s;
     animation-iteration-count: infinite;
-}
+} */
 
-@-webkit-keyframes circle {
+/* @-webkit-keyframes circle {
     from {background-color:#e11414;}
     to{background-color:#b50c0c;}
     to{background-color:#660505;}
     to{background-color:#000000;}
 }
-
+ */
 
 
 /* Media queries */
@@ -220,22 +200,20 @@ a {
         grid-row: 2;
         display: flex;
     }
-
     .image{
         width: 100%;
         
     }
-    .underConstruction {
-        position: absolute;
-        bottom: 30%;
-        right: 6%;
-        color: white;
-        padding: 0;
+    .works{
+        bottom: 12%;
+        right: 18%;
     }
-    #constructionText{
-        font-size: 14px;
+    #worksText{
         font-weight: bold;
-        margin-bottom: 0;
+        font-size: 15px;
+    }
+    #underText{
+        font-size: 16px;
     }
     p{
         font-size: 10px;
